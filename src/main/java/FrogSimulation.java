@@ -17,7 +17,7 @@ public class FrogSimulation
 	{ 
 		int count = 0 ; 
 		for ( int i = 0 ; i < maxHops;i++){
-			count+=this.hopDistance(); 
+			count+=hopDistance(); 
 		}
 		return count>=goalDistance;
 	}
@@ -26,9 +26,9 @@ public class FrogSimulation
 	{ 
 		double spaghetticode=0; 
 		for (int i = 0 ; i <num;i++) {
-			if(this.simulate()){spaghetticode++;}
+			if(simulate()){spaghetticode++;}
 		} 
-		return spaghetticode/num;
+		return spaghetticode/(double)num;
 
 	}
 	
