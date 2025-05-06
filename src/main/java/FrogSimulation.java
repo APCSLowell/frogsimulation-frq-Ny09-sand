@@ -26,7 +26,7 @@ public class FrogSimulation
 	{ 
 		double spaghetticode=0; 
 		for (int i = 0 ; i <num;i++) {
-			if(simulate()){spaghetticode++;}
+			if(simulate()){spaghetticode+=1.0;}
 		} 
 		return spaghetticode/(double)num;
 
